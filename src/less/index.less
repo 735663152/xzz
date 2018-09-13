@@ -1,0 +1,53 @@
+.navbar{
+    margin-bottom:0;
+
+    .navbar-inverse .navbar-brand{
+        font-size:24px;
+        color:#fff ;
+    }
+    
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color:#fff;
+    &:hover{
+        color:#337ab7;
+    }
+}
+.navbar-default .navbar-nav>li>a {
+    line-height:80px;
+    padding:0 15px;
+    height: 80px;
+    text-align: center;
+    &:hover{
+        background-color: #ccc;
+        color:#337ab7;
+    }
+}
+//工具提示的图片大小
+.tooltip img{
+
+    width: 100px;
+}
+// 三大特点
+#qwer{
+    margin-top: 20px;
+    .row{
+        div{
+            background: url('../../../images/feature01.png') no-repeat ;
+            padding-left: 75px;
+            height: 70px;
+            margin-bottom: 15px;
+            h3{
+                margin: 0;
+                padding: 0;
+            }
+        }
+        div:nth-of-type(2){
+            background-image: url('../../../images/feature02.png');
+        }
+        div:nth-of-type(3){
+            background-image: url('../../../images/feature03.png');
+        }
+    }
+}
